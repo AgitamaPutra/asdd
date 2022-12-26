@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #mydiv {
+        border: 5px solid;
+        width: 400px;
+        height: 500px;
+        background-color: rgb(131,168,50);
+        color:rgb(0, 0, 0);
+        font-size: 20px;
+        margin-top: 40px;
+        margin-left: 400px;
+        margin-right: 1px;
+        margin-bottom: 40px;
+        
+        }
+
+    </style>
+    
+</head>
+<body>
+    <div id="mydiv">
+        <h4 style="text-align: center;">Novell Service Login</h4>
+        <form >
+            <div style="padding-left: 20px;">Username: <input type="text" style="margin-left: 50px; width: 225px;"/></div>
+            <div style="padding-left: 20px;">Password: <input type="text" style="margin-left: 55px; width: 224px;"/></div>
+            <div style="padding-left: 20px; padding-top: 10px;">City of <br> Employment: <input type="text" style="margin-left: 28px; width: 224px;"/></div>
+            <div style="padding-left: 20px; padding-top: 10px;">
+                Web Server:
+                <select style="margin-left: 38px;">
+                    <option >--Choose a server--</option>
+                </select>
+            </div>
+            <div style="padding-left: 20px; padding-top: 30px; width: 1000px;">
+                <table id="replies">
+                <tr>
+                <td>Please specify <br> your role: </td>
+                <td align="left">
+                <div class="replytd"> 
+                <input type="radio" name="reply" value="admin" class="replyBtn" style="margin-left: 23px;" /><span class="replyspan">Admin</span>
+                </div>
+                <div class="replytd"> 
+                <input type="radio" name="reply" value="engineer" class="replyBtn" style="margin-left: 23px;" /><span class="replyspan">Engineer</span>
+                </div>
+                <div class="replytd"> 
+                <input type="radio" name="reply" value="manager" class="replyBtn" style="margin-left: 23px;" /><span class="replyspan">Manager</span>
+                </div>
+                <div class="replytd"> 
+                <input  type="radio" name="reply" value="guest" class="replyBtn" style="margin-left: 23px;" /><span class="replyspan" >Guest</span>
+                </div>
+                </td>
+                </tr>
+                </table>
+                <br>
+                <table id="replies">
+                    <tr>
+                    <td>Single Sign-on <br> to the following: </td>
+                    <td align="left">
+                    <div class="replytd"> 
+                    <input type="checkbox" name="reply" value="admin" class="replyBtn"  /><span class="replyspan">Admin</span>
+                    </div>
+                    <div class="replytd"> 
+                    <input type="checkbox" name="reply" value="engineer" class="replyBtn" /><span class="replyspan">Engineer</span>
+                    </div>
+                    <div class="replytd"> 
+                    <input type="checkbox" name="reply" value="manager" class="replyBtn" /><span class="replyspan">Manager</span>
+                    </td>
+                    </tr>
+                    </table>
+               
+            </div>
+        </form>
+        <br>
+        <div style="margin-left: 155px;">
+            <button class="button button1">Login</button>
+            <button class="button button2">Reset</button>
+        </div>
+    </form>
+            
+    </div>
+</body>
+</html>

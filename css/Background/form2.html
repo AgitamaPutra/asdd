@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-image: linear-gradient(to right, 
+            rgba(255, 99, 71, 0.5),
+            rgba(200, 255, 71, 0.5)), 
+            url(background.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 90vh;
+            overflow: hidden;
+        }
+
+        #mydiv {
+        width: 600px;
+        height: 550px;
+        background-color: rgb(245, 245, 245);
+        border-radius: 3%;
+        color:rgb(48, 47, 47);
+        font-size: 20px;
+        margin:auto;
+        margin-top: 60px;
+
+        }
+        input[type=text] {
+        background-color: rgb(245, 245, 245);
+        width: 90%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 2px solid transparent;
+        border-image: linear-gradient(0.25turn, #ff0000, rgba(255,0,128), rgba(7, 25, 187, 100%));
+        border-image-slice: 1;
+        }
+
+        input[type=submit] {
+        margin-left: 100px;
+        background: linear-gradient(to right, #ff0000 0%, #000066 100%);
+        width: 35%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: none;
+        }
+
+    </style>
+    
+</head>
+<body >
+    <div id="mydiv">
+        <br><h2 style="text-align: center; font-family:tahoma;">Contact Us</h2> <br>
+        <form style="margin-left: 55px; color: dimgray; font-size: 50%;">
+        <label for="fname"> NAME</label > <br>
+        <input type="text" id="fname" name="fname"> <br> <br> <br> <br>
+        <label for="lname"> EMAIL</label> <br>
+        <input type="text" id="lname" name="lname"> <br> <BR></BR> <br> 
+        <label for="lname"> MESAGGE</label> <br> <br> <br>
+        <input type="text" id="lname" name="lname"> <br> <BR></BR> <br>
+        <div >
+            <input type="submit" value="Send Your Message" style="color: white; font-size: 150%; margin-left: 150px;">
+        </div>
+        </form>
+            
+    </div>
+    
+</body>
+</html>

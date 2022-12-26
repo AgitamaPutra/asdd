@@ -1,0 +1,49 @@
+.red {
+    background-color: red;
+    width: 200px;
+    height: 80px;
+    color: white;
+    text-align: center;
+    font-size: 125%;
+    
+}
+#yellow {
+    background-color: yellow;
+    width: 200px;
+    height: 80px;
+    color: black;
+    text-align: center;
+    font-size: 200%;
+}
+#green {
+    background-color: green;
+    width: 200px;
+    height: 80px;
+    color: black;
+    text-align: center;
+    font-size: 100%;
+}
+#blue {
+    background-color: blue;
+    width: 200px;
+    height: 80px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 100%;
+    
+}
+p {
+    margin: 0px;
+    padding: 0;
+    text-align: center;
+    padding-top: 25px;
+}
+.textred {
+    padding-top: 25px;
+}
+.textyel {
+    padding-top: 20px;
+}
+.textgb {
+    padding-top: 30px;
+}
