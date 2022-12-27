@@ -1,0 +1,105 @@
+body {
+    background-image: url(BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#atas {
+    background-image: url(BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 350px;
+    margin: auto;
+    padding: auto;
+    box-shadow:0px 20px 30px 10px rgb(36, 36, 36);
+    margin-top: 50px;
+    color: white;
+    font-family: georgia;
+}
+#bawah {
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+    padding: auto;
+    margin: auto;
+    box-shadow:0px 20px 30px 10px rgb(36, 36, 36);
+    text-align: center;
+    color: blue;
+    
+}
+#user {
+    background-color: rgb(96, 96, 250);
+    width: 350px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    margin: auto;
+    padding: auto;
+    margin-top: 20px;
+    
+}
+.fa-solid, .fa-user, .tie-fa-xl {
+    color: white;
+    margin-top: 20px;
+    
+}
+.fa-solid, .fa-lock, .fa-xl {
+    color: white;
+    margin-right: 300px;
+    margin-top: 18px;
+}
+
+table {
+    margin-top: 20px;
+    width: 520px;
+    text-align: left;
+    margin-left: 63px;
+    font-size: 20px;
+}
+input[type=submit] {
+    background-color:rgb(96, 96, 250);
+    border: none;
+    color: white;
+    padding: 5px 30px;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  input[type=text] {
+    width: 280px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(96, 96, 250);
+    color: white;
+    font-size: 30px;
+    
+  }
+
+input[type=checkbox] {
+    font-size: 20px;
+}
+input[value] {
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+#input-container {
+    position: relative;
+    margin-top: 20px;
+}
+
+#input-container > i {
+    position: absolute;
+    top: 2px;
+    left: 80px;
+    width: 30px;
+    height: 30px;
+}
+
+#input-container > input {
+    padding-left: 80px;
+    font-size: 20px;
+}
