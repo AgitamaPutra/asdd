@@ -1,0 +1,24 @@
+#satu {
+    background-color: rgb(252, 153, 33);
+    height: 90px;
+}
+
+#satu > img{
+    margin: 10px;
+}
+
+.nav {
+    float: left;
+    color: white;
+    margin-right: 80px;
+    text-decoration: none;
+    font-size: 23px;
+    list-style: none;
+    margin-top: 30px;
+}
+div ul li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+

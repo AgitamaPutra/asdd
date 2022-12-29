@@ -15,6 +15,7 @@ body {
     margin-top: 50px;
     color: white;
     font-family: georgia;
+    border-top-left-radius:30px
 }
 #bawah {
     background-color: rgb(255, 255, 255);
