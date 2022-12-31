@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    background-color: black;
+    width: 600px;
+    justify-content: center;
+    padding: 50px;
+    margin-left: 26%;
+}
+
+span {
+    background-color: aqua;
+    width: 150px;
+    height: 100px;
+    margin: 20px;
+}
