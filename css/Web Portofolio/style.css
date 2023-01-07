@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    height: 100px;
+    background-color: aquamarine;
+}
+#header{
+    background-color:saddlebrown;
+    padding: 10px 0;
+}
+
+.fa-brands {
+    color: white;
+}
+  
+.custom-nav {
+    background-color: rgba(0,0,0,0.85);
+    height:50px;
+    font-size:20px;
+  }
+  
+  .custom-nav:hover {
+    background-color: red;
+    color: white; 
+  }
+
+h4,p {
+    text-align: center;
+    padding-top: 30px;
+}
+h6 {
+    width: 500px;
+    text-align: center;
+    margin-left: 425px;
+    padding-bottom: 50px;
+}

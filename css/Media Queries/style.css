@@ -1,0 +1,42 @@
+.gambar {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    margin-left: 125px;
+    
+}
+.gambar > img{
+    margin: 20px;
+    padding-left: 10px;
+    text-align: center;
+    display: block;
+    align-items: center;
+}
+
+@media screen and (min-width: 2000px) {
+    .gambar {
+        flex-direction: column;
+        margin-left: 500px;
+        
+    }
+}
+
+.gambar2 {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    margin-left: 125px;
+}
+.gambar2 > img{
+    margin: 20px;
+    padding-left: 10px;
+    
+}
+@media screen and (min-width: 2000px) {
+    .gambar2 {
+        flex-direction: column;
+        margin-top: 470px;
+        margin-left: 500px;
+        
+    }
+}
